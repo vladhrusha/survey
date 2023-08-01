@@ -1,5 +1,5 @@
 {
-  "name": "survey-server",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladhrusha/survey-server.git"
+    "url": "git+https://github.com/vladhrusha/survey.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladhrusha/surver-server/issues"
+    "url": "https://github.com/vladhrusha/survey/issues"
   },
-  "homepage": "https://github.com/vladhrusha/surver-server#readme",
+  "homepage": "https://github.com/vladhrusha/survey#readme",
   "dependencies": {
     "concurrently": "^8.2.0",
     "cookie-session": "^2.0.0",

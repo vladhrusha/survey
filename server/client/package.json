@@ -1,5 +1,5 @@
 {
-  "name": "survey-client",
+  "name": "client",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -43,12 +43,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladhrusha/survey-client.git"
+    "url": "git+https://github.com/vladhrusha/survey.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladhrusha/survey-client/issues"
+    "url": "https://github.com/vladhrusha/survey/issues"
   }
 }
