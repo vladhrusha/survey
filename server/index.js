@@ -29,12 +29,12 @@ if ((process.env.NODE_ENV = "production")) {
   const path = (await import("path")).default;
 
   // express will serve up production assets
-  app.use(express.static(path.join(__dirname, "/client/build")));
+  // app.use(express.static(path.join(__dirname, "/client/build")));
   //if no file inside build that express is looking for it goes to next lines, otherwise it serves file
 
-  // app.get("*", (req, res) => {
-  //   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-  // });
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
 }
 
 const PORT = process.env.PORT || 5001;
