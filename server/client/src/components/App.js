@@ -13,9 +13,7 @@ function App(props) {
   useEffect(() => {
     props.fetchUser();
 
-    console.log("Component has mounted!");
     return () => {
-      console.log("Component will unmount!");
       // Perform any clean-up operations here
     };
   }, []);
