@@ -37,5 +37,5 @@ if ((process.env.NODE_ENV = "production")) {
   });
 }
 
-const PORT = process.env.PORT || 5001;
-app.listen(PORT);
+const PORT_SERVER = process.env.PORT_SERVER || 5001;
+app.listen(PORT_SERVER);
