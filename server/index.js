@@ -26,8 +26,10 @@ authRoutes(app);
 billingRoutes(app);
 
 if ((process.env.NODE_ENV = "production")) {
+  const path = require("path"); //We need path earlier for this!
+
   // express will serve up production assets
-  app.use(express.static("client/build"));
+  app.use(express.static(path.join(__dirname, "/client/build")));
   //if no file inside build that express is looking for it goes to next lines, otherwise it serves file
 
   const path = (await import("path")).default;
